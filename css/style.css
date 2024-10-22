@@ -1,0 +1,32 @@
+.images{
+    width: 500px; 
+    
+}
+.frontPage{
+    
+    width: 500px;
+    align-self: center;
+   
+    
+}
+
+.vignette{
+    width:500px ;
+}
+
+.logo{
+    width: 100px;
+}
+
+header{
+
+    text-align: center;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: aqua;
+}
+
