@@ -4,29 +4,66 @@
 }
 .frontPage{
     
-    width: 500px;
+    width: 900px;
     align-self: center;
+    margin-top: 40px;
+    display: flex;
    
     
 }
 
+
+.space{
+    width: 100%;
+    background-color: lightcoral;
+    height: 20px;
+    margin: 40px;
+}
+
 .vignette{
     width:500px ;
+    margin-bottom: 50px;
 }
 
 .logo{
-    width: 100px;
+    width: 30px;
+    margin: 10px;
+    
+    
+}
+
+.link{
+    display: flex;
+    align-items: center;
 }
 
 header{
 
     text-align: center;
+    font-style: italic;
+    background-color: lightcoral;
+    text-shadow: 5px 3px 8px rgb(138, 18, 46);
 }
 
 main{
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: aqua;
+    background-color: lightpink;
 }
 
+
+footer {
+    background-color: lightcoral;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+
+}
+
+body{
+    background-color: lightcoral;
+}
